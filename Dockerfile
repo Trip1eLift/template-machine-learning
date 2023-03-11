@@ -12,7 +12,7 @@ COPY ./requirements.txt ./requirements.txt
 
 RUN pip3 install -r requirements.txt
 
-COPY . ./opt/notebooks/
+COPY ./src ./opt/notebooks/
 
 EXPOSE 8888
 

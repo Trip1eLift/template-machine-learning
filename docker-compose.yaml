@@ -2,7 +2,7 @@ version: '3.8'
 services:
   aws_lambda_sam_container:
     container_name: anaconda
-    build: ./src
+    build: .
     ports:
       - 8888:8888
     volumes:
